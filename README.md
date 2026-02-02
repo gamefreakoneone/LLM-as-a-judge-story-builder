@@ -33,7 +33,7 @@ A multi-agent storytelling system that creates **safe, engaging bedtime stories*
 
 ---
 
-## 📐 System Architecture
+## System Architecture
 
 The system follows a **multi-agent pipeline** with quality gates at each stage:
 
@@ -55,7 +55,7 @@ The system follows a **multi-agent pipeline** with quality gates at each stage:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8+
@@ -81,47 +81,8 @@ The system follows a **multi-agent pipeline** with quality gates at each stage:
    OPENAI_API_KEY=your_api_key_here
    ```
 
-### Usage
 
-**Interactive Mode** (recommended)
-```bash
-python main.py
-```
-
-**Programmatic Usage**
-```python
-from main import generate_bedtime_story, print_story
-
-# Generate a story
-story, evaluation = generate_bedtime_story(
-    "A brave little robot who learns about friendship",
-    max_iterations=3,
-    verbose=True
-)
-
-# Display results
-print_story(story, evaluation)
-```
-
-### Example Prompts
-- "A girl named Alice and her cat friend Bob"
-- "A magical garden where vegetables come alive"
-- "A curious fox who discovers a hidden library"
-
----
-
-## 🧪 Testing & Validation
-
-Run the comprehensive test suite:
-```bash
-python test.py
-```
-
-The test file (`test.py`) includes the full pipeline implementation with **Best-of-N selection** enabled by default.
-
----
-
-## 📊 Quality Evaluation Criteria
+## Quality Evaluation Criteria
 
 Stories are judged across **5 dimensions** (1-10 scale):
 
@@ -137,7 +98,7 @@ Stories are judged across **5 dimensions** (1-10 scale):
 
 ---
 
-## 🛡️ Safety Mechanisms
+## Safety Mechanisms
 
 ### 1. Request Transformation
 ```
