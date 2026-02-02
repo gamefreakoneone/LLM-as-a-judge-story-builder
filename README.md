@@ -120,7 +120,7 @@ must_avoid = ["violence", "gore", "scary monsters", "death",
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Model Settings
 ```python
@@ -137,7 +137,7 @@ N_CANDIDATES = 2              # Best-of-N candidates (2-3 recommended)
 
 ---
 
-## 🔍 Advanced Features
+## Advanced Features
 
 ### Best-of-N Selection
 Generates multiple candidates with temperature variation, ranks using:
@@ -153,7 +153,7 @@ Tracks best version across iterations to prevent quality regression.
 
 ---
 
-## 📝 Future Enhancements
+## Future Enhancements
 
 If I had **more time**, I would add:
 
@@ -163,7 +163,7 @@ If I had **more time**, I would add:
 4. **Illustrations**: Use Google's Nanobanana to generate illustrations for the story
 5. **Conversation memory**: Story series with recurring characters
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details
 
