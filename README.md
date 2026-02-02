@@ -6,7 +6,7 @@ A multi-agent storytelling system that creates **safe, engaging bedtime stories*
 
 ---
 
-##Key Features
+## Key Features
 
 ### Safety-First Architecture
 - **Content Transformation Engine**: Automatically converts inappropriate requests into safe, cozy alternatives
